@@ -1,0 +1,307 @@
+.main {
+  background-color: #000000;
+  height: 100vh;
+}
+
+.default-theme {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.getlogo {
+  height: 60vh;
+  width: inherit;
+  text-align: center;
+}
+
+.aligner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aligner-bottom {
+  flex:1;
+  align-self: flex-end;
+}
+
+.aligner-top {
+  flex: 1;
+  align-self: flex-start;
+}
+
+.aligner-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.aligner-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.helper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+}
+
+.companylogo {
+  vertical-align: top;
+  max-height: 173px;
+  max-width: 122px;
+}
+
+.navbuttons {
+  height: 20vh;
+  padding-top: 30px;
+}
+
+.navbuttons-bottom {
+  height: 20vh;
+  padding-bottom: 30px;
+}
+
+.wrapper {
+  height: auto;
+  vertical-align: bottom;
+  margin-bottom: 30px;
+}
+
+.mainbuts{
+  background-color: #000; !important
+  border-color: #D3D3D3; !important
+  font-family: 'IBM Plex Mono'. monospace; !important
+}
+
+.default-theme {
+  background-color: black;
+}
+
+.header {
+  height: 15vh;
+  color: white;
+}
+
+.footer {
+  background-color: #000000;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 5vh;
+  width: 100%;
+  color: white;
+  padding: 7px;
+}
+
+#privacy, #terms {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+}
+
+.navlogo {
+  max-height: 12vh;
+  padding-top: 2vh;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.mynav {
+  background-color: #000000;
+}
+
+.navbar-brand {
+  padding: 2px 12px; !important
+}
+
+.navbar {
+  border-radius: 0px; !important
+}
+
+.navbar-nav {
+  height: 100%;
+}
+
+.mynavitems {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbuts {
+  font-size: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+
+.spaced {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.compact {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.mynav {
+  background-color: #000000;
+}
+
+.mynav .navbar-brand {
+  height: 80px;
+}
+
+.mynav .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.mynav .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.icon-bar {
+  background-color: #fff;
+}
+
+.collapsed {
+  border-color: #fff;
+}
+
+.mainbod {
+  margin: 0px;
+}
+
+.gallery {
+  height: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.eventgallery {
+  display: flex;
+  justify-content: center;
+}
+
+.mobilegallery {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  float: left;
+  padding: 0px 20px 20px 0px;
+}
+
+.eventpic {
+  max-height: 300px;
+}
+
+.descript {
+  margin-bottom: 50px;
+}
+
+
+/* Contact Page CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.contactcontainer {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 70vw; !important
+  box-shadow: 10px 10px; !important
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.contactrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .mainbuts{
+    color: white; !important
+  }
+}
+
+.spacer{
+  height: 50px; !important
+}
+
+.submitbtn {
+  border-radius: 10px;
+}
