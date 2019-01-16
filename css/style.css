@@ -85,6 +85,34 @@
   color: white;
 }
 
+.mainrow {
+  padding-top: 40px;
+  color: #fffeed;
+}
+
+.ourfont {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.large_font {
+  font-size: 1.7em;
+}
+
+.medium_font {
+  font-size: 1.3em;
+}
+
+.mainheader {
+  background-color: #000000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 5vh;
+  width: 100%;
+  color: #fffeed;
+  padding: 20px 7px 7px 7px;
+}
+
 .footer {
   background-color: #000000;
   position: fixed;
@@ -92,9 +120,32 @@
   bottom: 0;
   height: 5vh;
   width: 100%;
-  color: white;
+  color: #fffeed;
   padding: 7px;
 }
+
+table {
+  margin: 0 auto;
+  border-spacing: 10px;
+}
+
+th,td {
+  font-weight: normal;
+  padding: 20px;
+}
+
+a {
+  color: #fffeed;
+}
+
+a:visited {
+  color: #fffeed;
+}
+
+a:hover {
+  color: #e8e69d
+}
+
 
 #privacy, #terms {
   text-align: center;
