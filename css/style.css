@@ -50,8 +50,14 @@
 
 .companylogo {
   vertical-align: top;
-  max-height: 173px;
-  max-width: 122px;
+}
+
+.medium_logo_size {
+  max-height: 200px;
+}
+
+.large_logo_size {
+  max-height: 300px;
 }
 
 .navbuttons {
@@ -147,7 +153,7 @@ a:hover {
 }
 
 
-#privacy, #terms {
+#privacy, #terms, #sale {
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
@@ -208,6 +214,18 @@ a:hover {
 
 .white_text {
   color: #fffeed;
+}
+
+.black_text {
+  color: #161719;
+}
+
+#eventrow {
+  display: flex;
+}
+
+#column{
+  flex: 50%;
 }
 
 .spaced {
@@ -281,7 +299,17 @@ a:hover {
 }
 
 .eventpic {
-  max-height: 300px;
+  max-height: 400px;
+  margin-left: 15px;
+}
+
+.eventbut{
+  margin-bottom: 10px;
+  width: 260.15px; !important
+}
+
+.mobmargin {
+  margin-top: 250px;
 }
 
 .descript {
