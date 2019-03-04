@@ -105,7 +105,7 @@
 }
 
 .medium_font {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .mainheader {
@@ -137,7 +137,7 @@ table {
 
 th,td {
   font-weight: normal;
-  padding: 20px;
+  padding: 15px;
 }
 
 a {
@@ -299,7 +299,7 @@ a:hover {
 }
 
 .eventpic {
-  max-height: 400px;
+  max-height: 500px;
   margin-left: 15px;
 }
 
