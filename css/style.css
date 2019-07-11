@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 .main {
   background-color: #000000;
   height: 100vh;
@@ -53,7 +56,7 @@
 }
 
 .medium_logo_size {
-  max-height: 200px;
+  max-height: 180px;
 }
 
 .large_logo_size {
